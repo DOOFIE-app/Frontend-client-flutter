@@ -10,6 +10,7 @@ import 'view/menu/menu.dart';
 //providers
 import 'view/menu/menu.provider.dart';
 import 'view/shop-list/shop.provider.dart';
+import 'view/login/address.provider.dart';
 
 void main() {
   runApp(MyApp());
