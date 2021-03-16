@@ -84,7 +84,7 @@ class _LoginPageState extends State<LoginPage> {
   Widget _loginButton() {
     return GestureDetector(
       onTap: () async {
-        Navigator.pushNamed(context, '/shops');
+        Navigator.pushNamed(context, '/addressPage');
       },
       child: Padding(
         padding: EdgeInsets.all(10),
